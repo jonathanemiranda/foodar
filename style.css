@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'helvetica', 'arial', sans-serif;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #888;
+}
+
+li{
+	list-style: none;
+}
+
+nav{
+	min-height: 10%;
+	display: block;
+}
+
+.navContainer{
+	height: 80px;
+}
+
+.mainContainer{
+	min-height: 60%;
+	min-width: 100%;
+}
+
+nav span{
+	padding: 30px 10px;
+	/*vertical-align: middle;*/
+	float: left;
+}
+
+nav ul{
+	display: inline;
+	float: right;
+	height: 100%;
+	padding: 30px 10px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 10px;
+	font-size: 1.3em;
+}
+
+nav img{
+	width: 70px;
+	float: left;
+	padding: 10px 0 10px 10px;
+}
+
+#bannerContainer{
+	width: 100%;
+	height: 70px;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#bannerContainer p{
+	color: white;
+	padding-top: 25px;
+}
+
+#indexHero{
+	background-size: cover; 
+	background-image: url("assets/img/food.jpg");
+	height: 500px;
+	width: 100%;
+}
+
+#indexHero p{
+	color: white;
+	padding-top: 200px;
+	font-size: 3em;
+	text-shadow: 4px 4px 10px black;
+	font-family: 'Monoton';
+	letter-spacing: .4em;
+}
+
+h1, h2{
+	text-align: center;
+	margin: 50px 0 0 0;
+	display: block;
+}
+
+p{
+	text-align: center;
+}
+
+.formContainer{
+	width: 50%;
+	margin: 0 auto;
+	min-width: 500px;
+}
+
+form{
+	margin: 5px auto;
+	width: 100%;
+}
+
+#restSearch label, #restSearch input, #restSearch button {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+form input{
+	margin: 5px 4px;
+	width: 200px;
+	height: 30px;
+	border-radius: 4px;
+	border: 2px solid #777;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+input::placeholder{
+	text-align: center;
+}
+
+fieldset{
+	border: none;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+}
+
+fieldset span{
+	display: block;
+}
+
+fieldset div{
+	margin: 0 auto;
+}
+
+form button{
+	width: 80px;
+	height: 25px;
+	margin: 10px 44px;
+}
+
+footer{
+	background-color: #333;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	padding: 20px 0;
+	min-height: 15%;
+}
+
+footer div{
+	display: inline-block;
+	width: 32.9%;
+	margin: 5px auto;
+	text-align: center;
+}
+
+footer h3{
+	text-decoration: underline;
+	margin: 0 0 5px 0;
+}
+
+footer p{
+	margin: 10px 0;
+}
+
+#footerQuote{
+	font-style: italic;
+	font-weight: 200;
+}
+
+
+
+
+
